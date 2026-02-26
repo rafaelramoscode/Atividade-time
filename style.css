@@ -1,8 +1,8 @@
 #icon {
-    height: 62px 
+    height: 62px
 }
 
-nav{
+nav {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -12,21 +12,21 @@ nav{
     color: whitesmoke
 }
 
-body{
+body {
     margin: 0;
     background-color: rgb(226, 68, 68);
 }
 
 #noticias {
     display: flex;
-     flex-wrap: wrap;
+    flex-wrap: wrap;
     background-color: rgb(0, 0, 0);
     margin: 40px;
     color: white;
     justify-content: space-between;
 }
 
-.noticia{
+.noticia {
     background-color: rgb(206, 8, 8);
     border: 5px solid rgb(255, 255, 255);
     margin: 10px;
@@ -35,14 +35,37 @@ body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.img_noticia{
+.img_noticia {
     height: 400px;
-    
+
 }
-footer{
+
+footer {
     background-color: rgb(192, 46, 46);
     padding: 10px;
     text-align: center;
     color: whitesmoke;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#escalacao {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(206, 48, 48);
+    margin: 40px;
+    color: white;
+    justify-content: space-between;
+}
+
+.titulo_escalacao {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.img_jogador {
+height: 130px;
+
+
 }
