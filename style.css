@@ -65,7 +65,21 @@ footer {
 }
 
 .img_jogador {
-height: 130px;
+height: 100px;
 
+
+}
+
+h5{
+    text-align: center;
+}
+
+#gif{ 
+
+right: 0px;
+bottom: -20px;
+position: fixed;
+height: 150px;
+width: 200px;
 
 }
